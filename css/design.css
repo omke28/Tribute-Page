@@ -1,0 +1,31 @@
+body {
+
+background-color: purple;
+
+}
+
+}
+h2 {
+
+color: white;
+}
+th, td {
+  padding: 15px;
+}
+            th {
+  text-align: left;
+}
+            table {
+  border-spacing: 5px;
+}
+            #t01 {
+  width: 95%;
+  background-color: #000000;
+}
+#t01 tr:nth-child(even) {
+  background-color: #A58BDE ;
+}
+#t01 tr:nth-child(odd) {
+  background-color: #D7CDED ;
+}
+p.solid {border-style: solid;}
