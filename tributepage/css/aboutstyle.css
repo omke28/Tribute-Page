@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html{
+  background:url(../images/aboutpagebg.png) no-repeat center fixed;
+  background-size: cover;
+/*
+    Fill the entire page with the image (no white space)
+    Scale image as needed
+    Center image on page
+    Do not cause scrollbars
+*/
+}
+
+body {
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+h1 {
+	font-size:100px;
+  text-shadow: 7px 7px 5px black;
+}
+
+#about {
+	text-align: left;
+    position: absolute;
+    top: 110%;
+    left: 10%;
+	font-family: 'Staatliches', cursive;
+	font-size: 25px;
+
+	}
+
+#before-fame {
+text-align: left;
+position: absolute;
+top: 230%;
+left: 10%;
+font-family: 'Staatliches', cursive;
+font-size: 25px;
+
+	}
+
+#trivia {
+text-align: left;
+position: absolute;
+top: 330%;
+left: 10%;
+font-family: 'Staatliches', cursive;
+font-size: 25px;
+
+	}
+#family {
+text-align: left;
+position: absolute;
+top: 390%;
+left: 10%;
+font-family: 'Staatliches', cursive;
+font-size: 25px;
+
+	}
+	#associated {
+text-align: left;
+position: absolute;
+top: 490%;
+left: 10%;
+font-family: 'Staatliches', cursive;
+font-size: 25px;
+
+	}
+.menu ul{
+	display: inline-flex;
+	margin: 50px;
+ font-family: 'Staatliches', cursive;
+	font-size: 25px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #1153bd;
+}
+
+.logo img{
+	width: 100px;
+	margin-top: -23px;
+	margin-right: 20px;
+
+
+}
+.code-text {
+  text-align: left;
+  position: absolute;
+  top: 11%;
+  left: 6%;
+  color: #1385d6;
+
+}
+
+
+.social-icons{
+    right: 70px;
+    bottom: 30px;
+    position: absolute;
+
+}
+.social-icons ul li{
+	list-style: none;
+	margin-top: 15px;
+
+}
